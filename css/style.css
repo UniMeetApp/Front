@@ -38,7 +38,7 @@ header {
     background: #FFF;
     display: flex;
     box-shadow: 0 0 15px gray;
-    font-family: "imperfecta";
+    font-family: "geo_sans_light";
 }
 
 header::after {
@@ -57,13 +57,17 @@ h1 {
 	vertical-align: top;
 }
 
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
 .bouton {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 55px;
-	text-align: center;
-	vertical-align: top;
 	font-family: "geo_sans_light";
+	text-align: center;
+	color:#478bf9;
+	font-size: 50px;
+	padding: 6px 0 6px 0;
 }
 
 .container, #menu {
