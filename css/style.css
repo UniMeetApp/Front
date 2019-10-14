@@ -33,10 +33,6 @@ header::after {
 	clear: both;
 }
 
-main {
-    padding-top: 150px;
-}
-
 /* balise */
 h1 {
     font-family: "sweet hipster";
@@ -44,6 +40,7 @@ h1 {
     font-style: normal;
     font-size: 150px;
 	text-align: center;
+	vertical-align: 25px;
 }
 
 .container, #menu {
