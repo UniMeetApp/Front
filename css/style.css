@@ -1,0 +1,96 @@
+/* police */
+@font-face {
+    font-family: "sweet hipster";
+    src: url("sweet hipster/Sweet Hipster.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "quentell";
+    src: url("quentell/QuentellCFMedium-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* general */
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
+
+header {
+    background: #FFF;
+    display: flex;
+    box-shadow: 0 0 15px gray;
+    font-family: "quentell";
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+main {
+    padding-top: 150px;
+}
+
+/* balise */
+h1 {
+    font-family: "sweet hipster";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+	text-align: center;
+}
+
+.container, #menu {
+	color: #333;
+	width: 80%;
+}
+
+nav {
+    color: #333;
+    float: left;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	position: relative;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
