@@ -29,6 +29,7 @@
 
 /* general */
 body {
+	position: relative;
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
@@ -47,6 +48,18 @@ header::after {
 	clear: both;
 }
 
+footer {
+	background: #FFF;
+	display: flex;
+    box-shadow: 0 0 15px gray;
+	font-family: "geo_sans_light";
+	bottom: 0;
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	right: 0
+}
+
 /* balise */
 h1 {
     font-family: "sweet hipster";
@@ -62,21 +75,12 @@ a {
 	text-transform: uppercase;
 }
 
-.bouton {
-	font-family: "geo_sans_light";
-	text-align: center;
-	color:#478bf9;
-	font-size: 50px;
-	padding: 6px 0 6px 0;
-}
-
+/* menu head */
 .container, #menu {
-	color: #333;
 	width: 80%;
 }
 
 nav {
-    color: #333;
     float: left;
 }
 
@@ -108,7 +112,7 @@ nav a::before {
 	content: '';
 	display: block;
 	height: 5px;
-	background-color: #444;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 	position: absolute;
 	top: 0;
 	width: 0%;
